@@ -1,6 +1,6 @@
 {
   "name": "home",
-  "homepage": "EPFL-Astrophysics-I.github.io/home/",
+  "homepage": "https://epfl-astrophysics-i.github.io/home/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
