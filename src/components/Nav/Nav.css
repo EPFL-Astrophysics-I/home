@@ -1,0 +1,22 @@
+.nav {
+  background-color: chartreuse;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  font-weight: 300;
+}
+
+.nav-link {
+  /* text-decoration: none; */
+  padding: 0px 18px;
+  margin: 5px 10px;
+  background-color: red;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-link-active {
+  color: gray;
+}

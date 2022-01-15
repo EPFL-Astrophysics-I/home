@@ -1,0 +1,22 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: gold;
+}
+
+#header-logo {
+  display: block;
+  width: 100px;
+  background-color: peachpuff;
+  /* margin: 0px; */
+  padding: 10px;
+  border: 4px solid rgb(89, 0, 255);
+}
+
+#language-toggle {
+  background-color: cornflowerblue;
+  padding: 0px 20px 0px 50px;
+}

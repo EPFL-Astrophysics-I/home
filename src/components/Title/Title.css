@@ -1,0 +1,11 @@
+.title {
+  background-color: orangered;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.title-p {
+  font-size: 3rem;
+  font-weight: 400;
+}
