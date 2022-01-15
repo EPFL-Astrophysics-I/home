@@ -1,11 +1,12 @@
 .title {
-  background-color: orangered;
   text-align: center;
   padding: 20px;
   padding-bottom: 40px;
+  /* background-color: orangered; */
 }
 
 .title-p {
   font-size: 3rem;
   font-weight: 400;
+  text-transform: uppercase;
 }

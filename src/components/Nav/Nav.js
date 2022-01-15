@@ -1,4 +1,4 @@
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import './Nav.css';
 
 export default function Nav() {
@@ -13,7 +13,7 @@ export default function Nav() {
         className='nav-link'
         activeClass='nav-link-active'
       >
-        TOP
+        &nbsp;top&nbsp;
       </Link>
       <Link
         to='chapter1'
@@ -24,7 +24,7 @@ export default function Nav() {
         className='nav-link'
         activeClass='nav-link-active'
       >
-        CHAPTER 1
+        Chapter 1
       </Link>
       <Link
         to='chapter2'
@@ -35,7 +35,7 @@ export default function Nav() {
         className='nav-link'
         activeClass='nav-link-active'
       >
-        CHAPTER 2
+        Chapter 2
       </Link>
       <Link
         to='chapter3'
@@ -46,7 +46,7 @@ export default function Nav() {
         className='nav-link'
         activeClass='nav-link-active'
       >
-        CHAPTER 3
+        Chapter 3
       </Link>
     </nav>
   );
