@@ -29,7 +29,9 @@ export default function Chapter({ props }) {
           </h1>
           <p className='chapter-text'>{props.description}</p>
           <ul className='chapter-apps-ul'>{appList}</ul>
-          <button className='chapter-button'>Learn more</button>
+          <a className='chapter-button' href={props.link}>
+            Learn more
+          </a>
         </div>
       </div>
       <div className='chapter-image'>{image}</div>
