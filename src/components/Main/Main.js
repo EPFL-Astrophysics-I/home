@@ -16,7 +16,7 @@ const chapter1 = {
     "Kepler's Second Law",
     "Kepler's Third Law",
   ],
-  link: 'https://epfl-astrophysics-i.github.io/keplers-laws',
+  link: 'https://epfl-astrophysics-i.github.io/chapter1/',
 };
 
 const chapter2 = {
@@ -26,7 +26,7 @@ const chapter2 = {
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   image: image2,
   apps: ['Tidal Forces', 'Roche Limit', 'Tidal Locking'],
-  link: 'https://epfl-astrophysics-i.github.io/tidal-forces',
+  link: 'https://epfl-astrophysics-i.github.io/chapter2/',
 };
 
 const chapter3 = {
@@ -36,6 +36,7 @@ const chapter3 = {
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   image: image3,
   apps: ['Virial Theorem', 'Mass of a Globular Cluster', 'N-Body Accuracy'],
+  link: 'https://epfl-astrophysics-i.github.io/chapter3/',
 };
 
 export default function Main() {
