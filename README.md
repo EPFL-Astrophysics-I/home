@@ -1,4 +1,6 @@
-# Web Apps for the Astrophysics I Course at EPFL
+# Web apps for Astrophysics I at EPFL
+
+Go to the [homepage](https://epfl-astrophysics-i.github.io/home/).
 
 ## Chapter 1 : Planetary Motion
 
