@@ -1,6 +1,6 @@
 import './Main.css';
 import Chapter from '../Chapter/Chapter';
-import gif1 from './Chapter1.gif';
+import gif1 from './Chapter1_Transparent.gif';
 // import image1 from './Chapter1.png';
 import image2 from './Chapter2.png';
 import image3 from './Chapter3.png';
