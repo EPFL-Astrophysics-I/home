@@ -39,7 +39,7 @@ const chapter3 = {
     'Discover how kinetic and potential energy are related in systems containing many gravitating bodies. See how we can weigh massive and distant celestial objects.',
   image: image3,
   apps: ['Virial Theorem', 'Mass of a Globular Cluster', 'N-Body Accuracy'],
-  status: ['InProgress', 'InProgress', 'InProgress'],
+  status: ['Complete', 'InProgress', 'InProgress'],
   link: 'https://epfl-astrophysics-i.github.io/chapter3/',
 };
 

@@ -11,11 +11,19 @@ export default function Chapter({ props }) {
 
   let appList;
   if (props.apps) {
-    appList = props.apps.map((text, index) => (
-      <li className='app-li' key={index}>
-        {text}
-      </li>
-    ));
+    appList = props.apps.map((text, index) => {
+      let textColor = 'black';
+      if (props.status) {
+        if (props.status[index] === 'InProgress') {
+          textColor = '#c0c0c0';
+        }
+      }
+      return (
+        <li className='app-li' key={index} style={{ color: textColor }}>
+          {text}
+        </li>
+      );
+    });
   }
 
   const flexDirection = props.index % 2 === 0 ? 'row-reverse' : 'row';
