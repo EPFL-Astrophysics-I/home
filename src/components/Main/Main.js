@@ -2,7 +2,8 @@ import './Main.css';
 import Chapter from '../Chapter/Chapter';
 import gif1 from './Chapter1_Transparent.gif';
 // import image1 from './Chapter1.png';
-import image2 from './Chapter2.png';
+import gif2 from './Chapter2_Transparent.gif';
+// import image2 from './Chapter2.png';
 import image3 from './Chapter3.png';
 
 const chapter1 = {
@@ -26,7 +27,7 @@ const chapter2 = {
   title: 'Tidal Forces',
   description:
     "Visualize tidal forces on Earth arising from the Moon's gravitational pull. Explore the physical mechanism behind the formation of Saturn's rings.",
-  image: image2,
+  image: gif2,
   apps: ['Tidal Forces', 'Roche Limit', 'Tidal Locking'],
   status: ['Complete', 'InProgress', 'InProgress'],
   link: 'https://epfl-astrophysics-i.github.io/chapter2/',
