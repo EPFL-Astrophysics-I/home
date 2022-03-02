@@ -10,7 +10,7 @@ const chapter1 = {
   index: 1,
   title: 'Planetary Motion',
   description:
-    "Explore the motion of celestial bodies through interactive apps. Understand Kepler's famous three laws of planetary motion.",
+    "Explore the motion of celestial bodies through interactive web applications. Understand Kepler's famous three laws of planetary motion.",
   image: gif1,
   apps: [
     'Two-Body Problem',
