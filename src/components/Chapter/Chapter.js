@@ -9,6 +9,15 @@ export default function Chapter({ props }) {
     image = <img id={imageID} src={props.image} alt={imageID}></img>;
   }
 
+  let video;
+  if (props.video) {
+    video = (
+      <video width='512' height='512' loop autoPlay muted>
+        <source src={props.video} type='video/mp4' />
+      </video>
+    );
+  }
+
   let appList;
   if (props.apps) {
     appList = props.apps.map((text, index) => {
@@ -43,6 +52,7 @@ export default function Chapter({ props }) {
         </div>
       </div>
       <div className='chapter-image'>{image}</div>
+      <div className='chapter-video'>{video}</div>
     </div>
   );
 }
