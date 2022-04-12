@@ -32,7 +32,7 @@ const chapter2 = {
     "Explore the physical mechanism behind the formation of Saturn's rings.",
   image: gif2,
   apps: ['Tidal Forces', 'Roche Limit', 'Tidal Locking'],
-  status: ['Complete', 'InProgress', 'InProgress'],
+  status: ['Complete', 'Complete', 'InProgress'],
   link: 'https://epfl-astrophysics-i.github.io/chapter2/',
 };
 
