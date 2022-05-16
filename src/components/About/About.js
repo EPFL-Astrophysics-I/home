@@ -18,6 +18,17 @@ export default function About() {
         We recommend viewing the apps in a <b>Chrome</b>, <b>Firefox</b>, or{' '}
         <b>Brave</b> browser window.
       </p>
+      <p>
+        We would greatly appreciate your (anonymous){' '}
+        <a
+          href='https://forms.gle/LNKZknM8C6jdMvsk7'
+          target='_blank'
+          rel='noreferrer'
+        >
+          feedback
+        </a>
+        .
+      </p>
     </div>
   );
 }
