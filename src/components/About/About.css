@@ -7,6 +7,15 @@
     /* background-color: rgb(245, 245, 245); */
 }
 
+.about-feedback {
+    text-align: center;
+    margin: 0px 230px 40px;
+    padding: 10px;
+    /* border: solid 1px #dedede; */
+    border-radius: 8px;
+    background-color: #f8f8f8;
+}
+
 .about a:link {
     color: #1a73e8;
     text-decoration: none;
